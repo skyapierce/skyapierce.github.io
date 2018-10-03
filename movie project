@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Movie Project</title>
+	<meta charset="utf-8">
+	<meta name="veiwport" content="width=device-width, 
+	initial-scale=1
+	shrink-to-fit=no">
+</head>
+<body>
+	<h1>Fight Club</h1>
+	<img src="https://www.barakashop.co.za/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/f/i/fight_club_poster.jpg" width="300" height="300">
+	<hr>
+	<i>David Fincher</i>
+	<p>A man suffering from insomnia and depression finds a release in attending various support groups.<br>
+	His sad life is quickly interrupted when he meets a soap salesmen (<b>Brad Pitt</b>) whose radical outlook on life changes his life forever.</p>
+</body>
+</html> 
