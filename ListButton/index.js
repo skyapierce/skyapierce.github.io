@@ -4,11 +4,9 @@ window.onload = () => {
     const listButton = document.getElementById('add-to-list');
     
  setTextButton.onclick = () => {
-        userInput.value ='List Item';
-    }
-}
+        userInput.value ='List Item';}
 
 listButton.onclick = () => {
     const myList = document.getElementById('my-list');
-    elfCode.appendToList(myList, userInput.value);
-}
+    elfCode.appendToList(myList, userInput.value);}
+} 
