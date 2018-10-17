@@ -9,6 +9,6 @@ window.onload = () => {
     }
 
     setTextButton.onclick = () => {
-        userInput.value ='the first item';
+        userInput.value ='List Item';
     }
 }
