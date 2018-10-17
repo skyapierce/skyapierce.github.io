@@ -1,11 +1,14 @@
 button {
-    background-color: red;
+    background-color: rgb(168, 31, 31);
     border: 2px solid black;
     color: black;
     text-align: center;    
     font-size: 16px;
 }
 
-h1.foo {
+h1.head {
+    background-color: rgb(168, 31, 31);
+    border: 2px solid black;
+    color: black;
     text-align: center;
 }
