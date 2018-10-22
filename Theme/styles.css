@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(146, 145, 145);   
+}
+
+button {
+    background-color: rgb(168, 31, 31);
+    border: 2px solid black;
+    color: black;
+    text-align: center;    
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(168, 31, 31);
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
+
+header p { 
+    text-align: center;
+    font-weight: bold;
+    font-size: 110;
+}
+
+.head {
+    text-align: center;
+}
+
+footer { 
+    text-align: center;
+    background-color: rgb(117, 117, 117);
+}
+
+hr { 
+    border-color: black;
+}
+
+main { 
+    text-align: center; 
+}
