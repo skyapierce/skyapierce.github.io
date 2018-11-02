@@ -48,10 +48,11 @@ figure {
     flex-flow: column;
     padding: 5px;
     width: 19em;
+}
 
 figcaption {
-    background-color: #222;
-    color: #fff;
+    background-color: darkgrey;
+    color: black;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
