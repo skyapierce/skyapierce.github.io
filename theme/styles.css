@@ -44,7 +44,6 @@ figure {
     border: thin black solid;
     display: flex;
     margin-left: auto;
-    margin-right: auto;
     margin: 0;
     padding: 5px;
     width: 19em;
