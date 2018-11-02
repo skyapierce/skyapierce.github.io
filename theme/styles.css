@@ -43,4 +43,5 @@ main {
 figcaption {
     background-color: rgb(122, 122, 122); 
     border-color: black; 
+    border: 3px solid; 
 }
