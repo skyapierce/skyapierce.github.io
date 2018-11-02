@@ -42,7 +42,7 @@ main {
 
 figure {
     border: thin black solid;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin: 0;
