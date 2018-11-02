@@ -50,7 +50,7 @@ figcaption {
     caption-side: bottom;
     background-color: darkgrey;
     color: black;
-    border-color: black;
+    border-color: 2px black;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
