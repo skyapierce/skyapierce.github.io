@@ -41,7 +41,8 @@ main {
 }
 
 figure {
-    Display: table;   
+    Display: table;  
+    margin: auto; 
 }
 
 figcaption {
