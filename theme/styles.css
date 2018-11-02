@@ -40,8 +40,18 @@ main {
     text-align: center; 
 }
 
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 5px;
+    width: 19em;
+
 figcaption {
-    background-color: rgb(122, 122, 122); 
-    border-color: black; 
-    border: 3px solid; 
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
