@@ -43,6 +43,7 @@ main {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
+    text-align: center;
     flex-flow: column;
     margin: 0;
     padding: 5px;
