@@ -39,3 +39,7 @@ hr {
 main { 
     text-align: center; 
 }
+
+figcaption {
+    border-color: grey; 
+}
