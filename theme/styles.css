@@ -41,5 +41,6 @@ main {
 }
 
 figcaption {
-    border-color: grey; 
+    background-color: rgb(122, 122, 122); 
+    border-color: black; 
 }
