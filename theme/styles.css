@@ -40,6 +40,10 @@ main {
     text-align: center; 
 }
 
+.wiki-figure {
+    height: 200px;
+    width: 50%;
+}
 figcaption {
     background-color: darkgrey;
     color: black;
