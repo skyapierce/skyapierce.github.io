@@ -40,6 +40,10 @@ main {
     text-align: center; 
 }
 
+figure {
+    Display: table;   
+}
+
 figcaption {
     background-color: darkgrey;
     color: black;
