@@ -41,11 +41,13 @@ main {
 }
 
 figure {
-    Display: table;  
+    display: table;  
     margin: auto; 
 }
 
 figcaption {
+    display: table-caption;
+    caption-side: bottom;
     background-color: darkgrey;
     color: black;
     font: italic smaller sans-serif;
