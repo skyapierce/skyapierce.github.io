@@ -41,11 +41,11 @@ main {
 }
 
 figure {
-    border: thin #c0c0c0 solid;
+    border: thin black solid;
     display: flex;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     flex-flow: column;
-    margin: 0;
     padding: 5px;
     width: 19em;
 
