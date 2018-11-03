@@ -81,5 +81,5 @@ aside {
 }
 
 .text { 
-    float: right;
+    display: table;
 }
