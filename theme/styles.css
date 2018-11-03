@@ -42,6 +42,7 @@ main {
 
 figure {
   width: 30%;
+  align-items: center;
   text-align: center;
   font-style: italic;
   font-size: smaller;
@@ -49,8 +50,7 @@ figure {
   border: thin silver solid;
   margin: 0.5em;
   padding: 0.5em;
-  display: table;
-  justify-content: center;
+  display: flex;
   border-top: none;
   padding-top: 0;
 }
