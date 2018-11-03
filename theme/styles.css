@@ -65,16 +65,5 @@ figcaption {
 }
 
 .me {
-    width: 30%;
     float: left;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  border: thin silver solid;
-  margin: 0.1em;
-  padding: 0.1em;
-  display: table;
-  border-top: none;
-  padding-top: 0;
 }
