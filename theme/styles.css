@@ -40,7 +40,7 @@ main {
     text-align: center; 
 }
 
-figure   {
+figure {
   width: 30%;
   text-align: center;
   font-style: italic;
@@ -73,5 +73,9 @@ figcaption {
 }
 
 .steel {
+    float: left;
+}
+
+aside { 
     float: left;
 }
