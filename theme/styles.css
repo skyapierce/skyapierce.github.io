@@ -81,5 +81,5 @@ aside {
 }
 
 .text { 
-    margin-right: 100px;
+    float: right;
 }
