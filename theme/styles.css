@@ -46,7 +46,7 @@ figure {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  border: thin black;
+  border: thin silver solid;
   margin: 0.5em;
   margin-right: auto;
   margin-left: auto;
@@ -60,6 +60,6 @@ figcaption {
     display: table-caption;
     caption-side: top;
     padding: 0.5em;
-    border: thin black;
+    border: thin silver solid;
     border-bottom: none;
 }
