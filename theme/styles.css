@@ -69,6 +69,5 @@ figcaption {
 }
 
 .aligator { 
-    margin-left: auto;
-    margin-right: auto; 
+    float: center;
 }
