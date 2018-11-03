@@ -54,7 +54,7 @@ figcaption {
     color: black;
     border: thin black;
     font: italic smaller sans-serif;
-    padding: 3px;
+    padding: 0.5em;
     text-align: center;
     border-bottom: none;
 }
