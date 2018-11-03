@@ -43,6 +43,8 @@ main {
 figure {
     display: table;  
     margin: auto; 
+    border-top: none;
+    padding-top: 0;
 }
 
 figcaption {
@@ -50,8 +52,9 @@ figcaption {
     caption-side: bottom;
     background-color: darkgrey;
     color: black;
-    border-color: 2px black;
+    border: thin black;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    border-bottom: none;
 }
