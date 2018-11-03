@@ -66,6 +66,7 @@ figcaption {
 
 .me {
     width: 30%;
+    float: left;
   text-align: center;
   font-style: italic;
   font-size: smaller;
