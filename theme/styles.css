@@ -48,6 +48,8 @@ figure {
   text-indent: 0;
   border: thin silver solid;
   margin: 0.5em;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0.5em;
   display: table;
   border-top: none;
