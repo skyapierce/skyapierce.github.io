@@ -8,5 +8,4 @@ window.onload = () => {
             elfCode.appendToList(myList, i);
         }
     }
-}                    
-        
+}
