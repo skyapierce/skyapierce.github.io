@@ -1,23 +1,37 @@
-function simplefunction() {
-    console.log("function text")
+window.onload = () => {
+    const functionCalls = document.getElementById("function-calls");
+    const callUserInput = document.getElementById("call-user-input");
+
+    functionCalls.onclick = () => {
+        simpleFunction(); 
+        functionParameters("many functions take parameters");
+        functionReturn();
+        const returnValue = functionReturn();
+        console.log(returnValue);
+        const functionParametersParagraph = document.getElementById('function-return');
+        functionParametersParagraph.textContent = returnValue;
+    }
+
+    callUserInput.onclick = () => {
+        const userInputParagraph = document.getElementByID("show-user-input");
+        const userInput = document.getElementById("user-input");
+        userInputParagraph.textContent = userInput.value;
+    }
 }
 
-simplefunction();
-
-function functionparameters(value) { 
-    console.log (value)
+function simpleFunction() {
+    const displayText = "functions should consist of statements designed to perform a simple task"
+    const simpleFunctionParagraph = document.getElementById('simple-function');
+    console.log(displayText);
+    simpleFunctionParagraph.textContent = displayText;
 }
 
-functionparameters("this function has a parameter"); 
-
-function add(a , b) { 
-    console.log(a+b);
+function functionParameters(Value) { 
+    const functionParametersParagraph = document.getElementById('function-parameters');
+    console.log(Value)
+    functionParametersParagraph.textContent = Value;
 }
 
-add(2 , 3)
-
-function adder () { 
-    console.log(2+3)
+function functionReturn() {
+    return "many functions return values";
 }
-
-adder();
