@@ -10,6 +10,16 @@ window.onload = () => {
         feetToInchesDisplay.textContent = feetToInches(feetToInchesInput.value);
     };
 
+        const milesToFeetAction = 
+        document.getElementById('miles-to-feet-action');
+
+    milesToFeetAction.onclick = () => {
+        const milesToFeetInput = document.getElementById('miles-to-feet-input');
+        const milesToFeetDisplay = document.getElementById('miles-to-feet-display');
+
+        milesToFeetDisplay.textContent = milesToFeet(milesToFeetInput.value);
+    };
+
     const milesToFeetAction = 
         document.getElementById('miles-To-Feet-action');
 
