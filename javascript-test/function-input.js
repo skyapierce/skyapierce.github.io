@@ -53,6 +53,6 @@ const areaOfTriangle = (base, height) => {
     return (base * height / 2);
 }
 
-const areaOfCircle = (radius) => {
-    return radius * Math.PI;
+const areaOfCircle = (diameter) => {
+    return diameter * Math.PI;
 }
