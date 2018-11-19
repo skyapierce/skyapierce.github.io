@@ -5,7 +5,7 @@ function loader () {
 getNamesButton.onclick = function() {
     const name = myObject.getName();
     const getNameDisplay = document.getElementById("getNameDisplay");
-    getNameDisplay.textcontent = name;
+    getNameDisplay.textContent = name;
 
     const fullName = myObject.getFullName();
     const getFullNameDisplay = document.getElementById('getFullNameDisplay');
