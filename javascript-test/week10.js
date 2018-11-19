@@ -21,6 +21,7 @@ window.onload = () => {
 }
 
 const numbers = [2,1,3];
+const strings = ["one", "two", "three"]
 
 const objectLiteral = {
     objectName: "object literal is my name",
