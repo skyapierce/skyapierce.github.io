@@ -3,7 +3,7 @@ body {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(168, 31, 31);
     border: 2px solid black;
     color: black;
     text-align: center;    
@@ -11,7 +11,7 @@ button {
 }
 
 header {
-    background-color: blue;
+    background-color: rgb(168, 31, 31);
     border: 2px solid black;
     color: black;
     text-align: center;
