@@ -28,13 +28,17 @@ window.onload = () => {
         
         const areaOfTriangleDisplay = document.getElementById('area-Of-Triangle-display');
 
-        const areaOfTriangleAction2 = 
-        document.getElementById('area-Of-Triangle-action');
+        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
+    };
+   
+    areaOfTriangleAction2.onclick = () => {
         const areaOfTriangleInput = document.getElementById('area-Of-Triangle-input2');
+        
+        const areaOfTriangleDisplay = document.getElementById('area-Of-Triangle-display');
 
         areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
     };
-
+    
     const areaOfCircleAction = 
         document.getElementById('area-Of-Circle-action');
 
