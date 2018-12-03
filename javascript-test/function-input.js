@@ -24,8 +24,13 @@ window.onload = () => {
         document.getElementById('area-Of-Triangle-action');
 
     areaOfTriangleAction.onclick = () => {
-        const areaOfTriangleInput = document.getElementById('area-Of-Triangle-input');
+        const areaOfTriangleInput = document.getElementById('area-Of-Triangle-input1');
+        
         const areaOfTriangleDisplay = document.getElementById('area-Of-Triangle-display');
+
+        const areaOfTriangleAction2 = 
+        document.getElementById('area-Of-Triangle-action');
+        const areaOfTriangleInput = document.getElementById('area-Of-Triangle-input2');
 
         areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
     };
@@ -53,6 +58,6 @@ const areaOfTriangle = (base, height) => {
     return (base * height / 2);
 }
 
-const areaOfCircle = (diameter) => {
-    return diameter * Math.PI;
+const areaOfCircle = (radius) => {
+    return Math.PI * radius * radius;
 }
